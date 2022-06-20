@@ -183,7 +183,7 @@ footer p {
     cursor: default;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1400px) {
     .overlay {
         justify-content: center;
     }
@@ -193,7 +193,7 @@ footer p {
     }
 
     .img-overlay img {
-        height: 80vh;
+        height: 60vh;
     }
 
     .overlay .caption {
@@ -211,7 +211,7 @@ footer p {
     }
 
     .img-overlay img {
-        height: 60vh;
+        height: 40vh;
     }
 
     .overlay .caption {
@@ -255,7 +255,7 @@ footer p {
     }
 }
 
-@media (max-width:564px) {
+@media (max-width:568px) {
     .overlay {
         justify-content: center;
     }
@@ -265,7 +265,58 @@ footer p {
     }
 
     .img-overlay img {
-        height: 35vh;
+        height:40vh;
+    }
+
+    .overlay .caption {
+        display: none;
+    }
+}
+@media (max-width:420px) {
+    .overlay {
+        justify-content: center;
+    }
+
+    .landing {
+        flex-direction: column;
+    }
+
+    .img-overlay img {
+        height:25vh;
+    }
+
+    .overlay .caption {
+        display: none;
+    }
+}
+@media (max-width:380px) {
+    .overlay {
+        justify-content: center;
+    }
+
+    .landing {
+        flex-direction: column;
+    }
+
+    .img-overlay img {
+        height:30vh;
+    }
+
+    .overlay .caption {
+        display: none;
+    }
+}
+@media (max-width:320px) {
+    .overlay {
+        justify-content: center;
+    }
+
+    .landing {
+        flex-direction: column;
+    }
+
+    .img-overlay img {
+        height:29vh;
     }
 
     .overlay .caption {
